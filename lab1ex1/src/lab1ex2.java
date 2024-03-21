@@ -1,3 +1,5 @@
+
+
 public class lab1ex2 {
     public static void main(String[] args) {
         
