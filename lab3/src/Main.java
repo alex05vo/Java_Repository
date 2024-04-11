@@ -61,7 +61,7 @@ public class Main {
                                                                 Task_5_2 Task_5_2 = new Task_5_2();
                                                                 Task_5_2.ForTabulation();
 
-                                                                System.out.println("Програма завершує роботу. Завдання закінчились");
+                                                                System.out.println("Програма завершує роботу. Завдання закінчились.");
                                                                 break;
                                                             } else if (userInput.equalsIgnoreCase("n")) {
                                                                 System.out.println("Програма завершує роботу.");
