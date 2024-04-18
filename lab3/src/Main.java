@@ -61,7 +61,7 @@ public class Main {
                                                                 Task_5_2 task_5_2 = new Task_5_2();
                                                                 task_5_2.ForTabulation();
 
-                                                                System.out.println("Програма завершує роботу. Завдання закінчились.");
+                                                                System.out.println("Програма завершує роботу. Завдання закiнчились.");
                                                                 break; 
                                                             } else if (userInput.equalsIgnoreCase("n")) {
                                                                 System.out.println("Програма завершує роботу.");
@@ -74,7 +74,7 @@ public class Main {
                                                         System.out.println("Програма завершує роботу.");
                                                         break;
                                                     } else {
-                                                        System.out.println("Неправильний ввід. Введіть 'y' або 'n'.");
+                                                        System.out.println("Неправильний ввiд. Введiть 'y' або 'n'.");
                                                     }
                                                 } while (true);
                                                 
@@ -83,7 +83,7 @@ public class Main {
                                                 System.out.println("Програма завершує роботу.");
                                                 break;
                                             } else {
-                                                System.out.println("Неправильний ввід. Введіть 'y' або 'n'.");
+                                                System.out.println("Неправильний ввiд. Введiть 'y' або 'n'.");
                                             }
                                         } while (true);
                                         
@@ -101,7 +101,7 @@ public class Main {
                                 System.out.println("Програма завершує роботу.");
                                 break;
                             } else {
-                                System.out.println("Неправильний ввід. Введіть 'y' або 'n'.");
+                                System.out.println("Неправильний ввiд. Введiть 'y' або 'n'.");
                             }
                         } while (true);
                         
@@ -110,7 +110,7 @@ public class Main {
                         System.out.println("Програма завершує роботу.");
                         break;
                     } else {
-                        System.out.println("Неправильний ввід. Введіть 'y' або 'n'.");
+                        System.out.println("Неправильний ввiд. Введiть 'y' або 'n'.");
                     }
                 } while (true);
 
