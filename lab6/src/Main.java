@@ -34,21 +34,37 @@ public class Main {
                     
                     MyPhone.sendMessage("987-654-3210", "555-1234-3142", "999-999-9999");
                     break;
-                // case "3":
-                //     System.out.println("-------------------------------");
-                //     Task_3 task3 = new Task_3();
-                //     task3.ArrayOutput();
-                //     break;
-                // case "4":
-                //     System.out.println("-------------------------------");
-                //     Task_4 task4 = new Task_4();
-                //     task4.ArrayMaxSize();
-                //     break;
-                // case "5":
-                //     System.out.println("-------------------------------");
-                //     Task_4 task4 = new Task_4();
-                //     task4.ArrayMaxSize();
-                //     break;
+                case "3":
+                    System.out.println("-------------------------------");
+                    Shape shape = new Shape();
+                    Shape pyramid = new Pyramid(2.0, 1.0);
+                    Shape cylinder = new Cylinder(35.0, 1.0);
+                    Shape ball = new Ball(9.0);
+
+                    System.out.println(pyramid.getVolume());
+                    System.out.println(cylinder.getVolume());
+                    System.out.println(ball.getVolume());
+                    break;
+                case "4":
+                    System.out.println("-------------------------------");
+                    Sedan sedan = new Sedan("Toyota Camry", "Black", 180);
+                    Mazda mazda = new Mazda("Mazda Miata", "Pink", 350);
+
+                    sedan.gas();
+                    sedan.brake();
+
+                    mazda.gas();
+                    mazda.brake();
+                    break;
+                case "5":
+                    System.out.println("-------------------------------");
+                    StudentPerformance student = new StudentPerformance();
+
+                    student.inputStudentData();
+                    student.displayStudentData();
+                    
+                    System.out.println("Average grade: " + student.calculateAverageGrade());
+                    break;
                 default:
                     System.out.println("Неправильний ввiд. Введiть номер завдання (1; 2; 3; 4; 5) або 'q' для виходу.");
                     break;
