@@ -1,4 +1,4 @@
-class Mazda extends Car {
+class Mazda extends Car6 {
     
     public Mazda(String model, String color, int maxSpeed) {
         super(model, color, maxSpeed);

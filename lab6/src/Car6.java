@@ -1,10 +1,10 @@
-abstract class Car {
+abstract class Car6 {
 
     String model;
     String color;
     int maxSpeed;
 
-    public Car(String model, String color, int maxSpeed) {
+    public Car6(String model, String color, int maxSpeed) {
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
