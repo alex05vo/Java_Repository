@@ -22,11 +22,13 @@ public class Main {
                     System.out.println("-------------------------------");
                     In task1 = new In();
                     task1.Input();
+                    System.out.println("-------------------------------");
                     break;
                 case "2":
                     System.out.println("-------------------------------");
                     Out task2 = new Out();
                     task2.Output();
+                    System.out.println("-------------------------------");
                     break;
                 default:
                     System.out.println("Неправильний ввiд. Введiть номер завдання (1; 2) або 'q' для виходу.");
