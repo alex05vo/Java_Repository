@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Розрахунок розпаду радіоактивних ізотопів</title>
+</head>
+<body style="background-image:url('srek.jpg')">
+    
+    <div style="background-color: white" >
+        <h1>Розрахунок розпаду радіоактивних ізотопів</h1>
+    <form action="/calculate" method="post">
+        
+        <label for="n0">Початкове число ядер:</label>
+        <input type="number" id="n0" name="n0" required>
+
+        <label for="lambda">Стала радіоактивного розпаду:</label>
+        <input type="number" step="0.01" id="lambda" name="lambda" required>
+
+        <label for="t">Період часу:</label>
+        <input type="number" step="0.01" id="t" name="t" required>
+
+        <button type="submit">Розрахувати</button>
+    </form>
+    <p th:text="${n}"></p>
+    </div>
+</body>
+</html>
